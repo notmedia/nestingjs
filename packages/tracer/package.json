@@ -1,0 +1,28 @@
+{
+  "name": "@nestingjs/tracer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alexey Vasyukov (@notmedia)",
+  "license": "MPL-2.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:cov": "vitest run --coverage"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "10.4.3"
+  },
+  "devDependencies": {
+    "@nestingjs/eslint-config": "*",
+    "@vitest/coverage-v8": "2.0.5",
+    "eslint": "9.9.1",
+    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "prettier": "3.3.3",
+    "typescript-eslint": "8.3.0",
+    "vitest": "2.0.5"
+  }
+}

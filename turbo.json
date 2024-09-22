@@ -1,0 +1,22 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "lint": {
+      "inputs": ["src/**/*.js", "src/**/*.ts"]
+    },
+    "test": {
+      "inputs": ["src/**/*.js", "src/**/*.ts"]
+    },
+    "test:watch": {
+      "inputs": ["src/**/*.js", "src/**/*.ts"]
+    },
+    "test:cov": {
+      "inputs": ["src/**/*.js", "src/**/*.ts"],
+      "outputs": ["coverage/**"]
+    }
+  }
+}

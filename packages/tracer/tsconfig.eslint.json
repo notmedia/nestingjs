@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*",
+    "wallaby.js",
+    "eslint.config.mjs",
+    "vitest.config.mjs"
+  ],
+}

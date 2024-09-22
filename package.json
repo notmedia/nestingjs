@@ -1,0 +1,27 @@
+{
+  "name": "nestingjs",
+  "version": "1.0.0",
+  "description": "Extension pack for Nest",
+  "main": "index.js",
+  "private": true,
+  "author": "Alexey Vasyukov (@notmedia)",
+  "license": "MPL-2.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "npm@10.8.3",
+  "scripts": {
+    "prepare": "husky",
+    "build": "turbo build",
+    "ncu": "ncu -ws --root"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "0.5.0",
+    "@changesets/cli": "2.27.7",
+    "@commitlint/cli": "19.4.1",
+    "@commitlint/config-conventional": "19.4.1",
+    "husky": "9.1.5",
+    "npm-check-updates": "17.1.0",
+    "turbo": "2.1.1"
+  }
+}

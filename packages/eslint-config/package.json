@@ -1,0 +1,24 @@
+{
+  "name": "@nestingjs/eslint-config",
+  "type": "module",
+  "main": "./src/index.js",
+  "version": "1.0.0",
+  "author": "Alexey Vasyukov (@notmedia)",
+  "license": "MPL-2.0",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "@eslint/js": "9.9.1",
+    "eslint-config-prettier": "9.1.0",
+    "globals": "15.9.0"
+  },
+  "peerDependencies": {
+    "eslint": "9.9.1",
+    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "prettier": "3.3.3",
+    "typescript-eslint": "8.3.0"
+  }
+}
