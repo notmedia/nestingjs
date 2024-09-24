@@ -5,6 +5,9 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
+    "typecheck": {
+      "inputs": ["src/**/*.js", "src/**/*.ts"]
+    },
     "lint": {
       "inputs": ["src/**/*.js", "src/**/*.ts"]
     },
