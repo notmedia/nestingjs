@@ -35,6 +35,7 @@ export default tseslint.config(
       eqeqeq: ['error', 'always'],
       'no-console': 'error',
       'no-param-reassign': 'error',
+      'no-duplicate-imports': 'error',
 
       '@typescript-eslint/no-unused-vars': [
         'error',
