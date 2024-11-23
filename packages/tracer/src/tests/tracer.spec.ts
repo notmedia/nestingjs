@@ -1,7 +1,11 @@
 import { Tracer } from '../tracer';
 
 describe('Tracer', () => {
-  let tracer: Tracer;
+  type CustomTracerData = {
+    user?: string;
+  };
+
+  let tracer: Tracer<CustomTracerData>;
 
   beforeEach(() => {
     tracer = new Tracer();
@@ -11,6 +15,18 @@ describe('Tracer', () => {
     return new Promise((resolve) => {
       tracer.run({ id: '1' }, () => {
         expect(tracer.id).toBe('1');
+        resolve(true);
+      });
+    });
+  });
+
+  it('should run with custom tracer data', () => {
+    return new Promise((resolve) => {
+      const data = { id: '1', user: '2' };
+
+      tracer.run(data, () => {
+        expect(tracer.id).toBe('1');
+        expect(tracer.data).toStrictEqual(data);
         resolve(true);
       });
     });

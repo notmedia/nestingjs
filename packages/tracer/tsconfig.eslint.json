@@ -5,6 +5,7 @@
     "src/**/*",
     "wallaby.js",
     "eslint.config.mjs",
-    "vitest.config.mjs"
+    "vitest.config.mjs",
+    ".ncurc.js"
   ],
 }
