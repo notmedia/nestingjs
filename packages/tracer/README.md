@@ -7,7 +7,3 @@
 ```bash
 npm i @nestingjs/tracer
 ```
-
-# Usage
-
-
