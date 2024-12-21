@@ -3,7 +3,7 @@ import tseslint from 'typescript-eslint';
 import config from '@nestingjs/eslint-config';
 
 export default tseslint.config(...config, {
-  files: ['**/*.{js,mjs,ts,tsx}'],
+  files: ['**/*.{js,mjs,ts,mts,tsx}'],
   languageOptions: {
     parser: tseslint.parser,
     parserOptions: {

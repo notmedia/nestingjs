@@ -4,6 +4,7 @@
   "description": "Extension pack for Nest",
   "main": "index.js",
   "private": true,
+  "type": "module",
   "author": "Alexey Vasyukov (@notmedia)",
   "license": "MPL-2.0",
   "workspaces": [
@@ -13,15 +14,20 @@
   "scripts": {
     "prepare": "husky",
     "build": "turbo build",
-    "ncu": "ncu -ws --root"
+    "ncu": "ncu -ws --root",
+    "test": "vitest run",
+    "test:cov": "vitest run --coverage",
+    "test:e2e": "vitest run --project e2e"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.5.0",
-    "@changesets/cli": "2.27.10",
-    "@commitlint/cli": "19.6.0",
+    "@changesets/cli": "2.27.11",
+    "@commitlint/cli": "19.6.1",
     "@commitlint/config-conventional": "19.6.0",
+    "@vitest/coverage-v8": "2.1.8",
     "husky": "9.1.7",
-    "npm-check-updates": "17.1.11",
-    "turbo": "2.3.1"
+    "npm-check-updates": "17.1.12",
+    "turbo": "2.3.3",
+    "vitest": "2.1.8"
   }
 }
