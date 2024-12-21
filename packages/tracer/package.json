@@ -1,9 +1,13 @@
 {
   "name": "@nestingjs/tracer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "author": "Alexey Vasyukov (@notmedia)",
   "license": "MPL-2.0",
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit --project tsconfig.build.json",
