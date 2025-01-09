@@ -42,49 +42,7 @@ import { Module } from '@nestjs/common';
 export class AppModule {}
 ```
 
-In bootrstrap function use logger.
-
-> [!TIP]\
-> Read about bufferLogs [here](https://docs.nestjs.com/techniques/logger)
-
-```ts
-import { LoggerService } from '@nestingjs/logger';
-import { NestFactory } from '@nestjs/core';
-
-import { AppModule } from './app.module';
-
-async function bootstrap() {
-  const app = await NestFactory.create(AppModule, { bufferLogs: true });
-
-  const logger = app.get(LoggerService);
-  app.useLogger(logger);
-
-  ...
-
-  await app.listen(8080);
-}
-
-void bootstrap();
-```
-
-Then in any Injectable/Controller use logger from `@nestjs/common`. Under the hood it will log all messages using this logger.
-
-```ts
-import { Controller, Get, Logger } from '@nestjs/common';
-
-@Controller()
-export class AppHttpController {
-  // This is recomended by Nest.js way to use Logger
-  private readonly logger = new Logger(AppHttpController.name);
-
-  @Get('/')
-  get() {
-    this.logger.log('handled HTTP get route');
-  }
-}
-```
-
-# Options
+## Options
 
 `LoggerModuleOptions` extends the `pino.LoggerOptions` except 'customLevels' and 'useOnlyCustomLevels'
 
@@ -108,3 +66,50 @@ export type LoggerModuleOptions = {
   traceKey?: string;
 } & Omit<pino.LoggerOptions<LogLevel, true>, 'customLevels' | 'useOnlyCustomLevels'>;
 ```
+
+In bootstrap function use logger.
+
+> [!NOTE]\
+> Read about bufferLogs [here](https://docs.nestjs.com/techniques/logger)
+
+```ts
+import { LoggerService } from '@nestingjs/logger';
+import { NestFactory } from '@nestjs/core';
+
+import { AppModule } from './app.module';
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule, { bufferLogs: true });
+
+  const logger = app.get(LoggerService);
+  app.useLogger(logger);
+
+  ...
+
+  await app.listen(8080);
+}
+
+void bootstrap();
+```
+
+In any Injectable use logger from `@nestjs/common`. Under the hood it will log all messages using this logger.
+
+```ts
+import { Controller, Get, Logger } from '@nestjs/common';
+
+@Controller()
+export class AppHttpController {
+  // This is the recomended way to use Logger by Nest.js
+  private readonly logger = new Logger(AppHttpController.name);
+
+  @Get('/')
+  get() {
+    this.logger.log('handled HTTP get route');
+  }
+}
+```
+
+## Pretty print
+
+## Tracing
+

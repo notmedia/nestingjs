@@ -10,7 +10,7 @@ npm i @nestingjs/logger-pretty
 
 # Usage
 
-> [!IMPORTANT]\
+> [!CAUTION]\
 > It is recommended to use prettifier **only** in **development** due to performance reasons.
 
 ```ts
