@@ -42,31 +42,6 @@ import { Module } from '@nestjs/common';
 export class AppModule {}
 ```
 
-## Options
-
-`LoggerModuleOptions` extends the `pino.LoggerOptions` except 'customLevels' and 'useOnlyCustomLevels'
-
-```ts
-export type LoggerModuleOptions = {
-  /**
-   * One of the supported levels ["verbose", "debug", "log", "warn", "error", "fatal"]
-   * @default log
-   */
-  level?: LogLevel;
-  /**
-   * The string key for the Context in the JSON object.
-   * @default context
-   */
-  contextKey?: string;
-
-  /**
-   * The string key for the Tracing ID in the JSON object.
-   * @default trace
-   */
-  traceKey?: string;
-} & Omit<pino.LoggerOptions<LogLevel, true>, 'customLevels' | 'useOnlyCustomLevels'>;
-```
-
 In bootstrap function use logger.
 
 > [!NOTE]\
@@ -107,6 +82,31 @@ export class AppHttpController {
     this.logger.log('handled HTTP get route');
   }
 }
+```
+
+## Options
+
+`LoggerModuleOptions` extends the `pino.LoggerOptions` except 'customLevels' and 'useOnlyCustomLevels'
+
+```ts
+export type LoggerModuleOptions = {
+  /**
+   * One of the supported levels ["verbose", "debug", "log", "warn", "error", "fatal"]
+   * @default log
+   */
+  level?: LogLevel;
+  /**
+   * The string key for the Context in the JSON object.
+   * @default context
+   */
+  contextKey?: string;
+
+  /**
+   * The string key for the Tracing ID in the JSON object.
+   * @default trace
+   */
+  traceKey?: string;
+} & Omit<pino.LoggerOptions<LogLevel, true>, 'customLevels' | 'useOnlyCustomLevels'>;
 ```
 
 ## Pretty print
