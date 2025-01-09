@@ -8,4 +8,11 @@ export default defineWorkspace([
       include: ['packages/**/*.spec.ts'],
     },
   },
+  {
+    extends: './vitest.config.ts',
+    test: {
+      name: 'e2e',
+      include: ['e2e/**/*.e2e-spec.ts'],
+    },
+  },
 ])

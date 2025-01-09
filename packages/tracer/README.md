@@ -1,14 +1,12 @@
 # @nestingjs/tracer
 
+Tracer wraps incoming request using `AsyncLocalStorage` to hold or generate `x-request-id` using uuid v4 in context.
+
 # Installation
 
 ```bash
 npm i @nestingjs/tracer
 ```
-
-# How it works
-
-Tracer wraps incoming request using `AsyncLocalStorage` to hold or generate `x-request-id` in context.
 
 # Usage
 
@@ -22,7 +20,7 @@ import { TracerModule } from '@nestingjs/tracer';
 
 @Module({
   imports: [
-    TracerModule.forRoot(),
+    TracerModule.forRoot({}),
   ],
 })
 export class AppModule implements NestModule {
@@ -32,7 +30,7 @@ export class AppModule implements NestModule {
 }
 ```
 
-# Injecting Tracer
+## Injecting Tracer
 
 ```ts
 import { Injectable } from '@nestjs/common';

@@ -1,16 +1,3 @@
-# eslint-config
-
-Flat eslint config for Nest.js applications.
-
-# Installation
-
-```bash
-npx install-peerdeps @nestingjs/eslint-config -d
-```
-
-# Usage
-
-```ts
 import tseslint from 'typescript-eslint';
 
 import config from '@nestingjs/eslint-config';
@@ -25,4 +12,3 @@ export default tseslint.config(...config, {
     },
   },
 });
-```
