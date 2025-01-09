@@ -1,5 +1,11 @@
 # @nestingjs/tracer
 
+## 1.0.2
+
+### Patch Changes
+
+- Added logger and logger-pretty packages
+
 ## 1.0.1
 
 ### Patch Changes
