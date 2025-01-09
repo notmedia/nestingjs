@@ -111,5 +111,8 @@ export class AppHttpController {
 
 ## Pretty print
 
+You can use [@nestingjs/logger-pretty](https://github.com/notmedia/nestingjs/tree/master/packages/logger-pretty) for pretty printing or use [`pino-pretty`](https://github.com/pinojs/pino-pretty) as your own.
+
 ## Tracing
 
+This logger has support tracing via [@nestingjs/tracer](https://github.com/notmedia/nestingjs/tree/master/packages/tracer)
