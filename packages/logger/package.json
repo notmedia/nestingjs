@@ -1,6 +1,6 @@
 {
   "name": "@nestingjs/logger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Alexey Vasyukov (@notmedia)",
@@ -22,8 +22,8 @@
     "pino": "9.6.0"
   },
   "peerDependencies": {
-    "@nestingjs/tracer": "1.0.4",
-    "@nestjs/common": "10.4.15"
+    "@nestingjs/tracer": "1.0.5",
+    "@nestjs/common": "11.0.1"
   },
   "peerDependenciesMeta": {
     "@nestingjs/tracer": {
@@ -31,16 +31,16 @@
     }
   },
   "devDependencies": {
-    "@nestingjs/eslint-config": "1.0.3",
-    "@nestjs/testing": "10.4.15",
-    "@types/node": "22.10.5",
-    "@vitest/coverage-v8": "2.1.8",
+    "@nestingjs/eslint-config": "1.0.4",
+    "@nestjs/testing": "11.0.1",
+    "@types/node": "22.10.7",
+    "@vitest/coverage-v8": "3.0.2",
     "eslint": "9.18.0",
-    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-prettier": "5.2.2",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "prettier": "3.4.2",
     "typescript": "5.7.3",
-    "typescript-eslint": "8.19.1",
-    "vitest": "2.1.8"
+    "typescript-eslint": "8.20.0",
+    "vitest": "3.0.2"
   }
 }
