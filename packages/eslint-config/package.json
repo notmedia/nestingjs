@@ -2,7 +2,7 @@
   "name": "@nestingjs/eslint-config",
   "type": "module",
   "main": "./src/index.js",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "author": "Alexey Vasyukov (@notmedia)",
   "license": "MPL-2.0",
   "files": [

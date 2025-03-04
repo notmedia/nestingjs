@@ -1,6 +1,6 @@
 {
   "name": "@nestingjs/logger",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Alexey Vasyukov (@notmedia)",
@@ -22,7 +22,7 @@
     "pino": "9.6.0"
   },
   "peerDependencies": {
-    "@nestingjs/tracer": "1.0.14",
+    "@nestingjs/tracer": "1.0.15",
     "@nestjs/common": "11.0.11"
   },
   "peerDependenciesMeta": {
@@ -31,7 +31,7 @@
     }
   },
   "devDependencies": {
-    "@nestingjs/eslint-config": "1.0.13",
+    "@nestingjs/eslint-config": "1.0.14",
     "@nestjs/testing": "11.0.11",
     "@types/node": "22.13.9",
     "@vitest/coverage-v8": "3.0.7",

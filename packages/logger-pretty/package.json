@@ -1,6 +1,6 @@
 {
   "name": "@nestingjs/logger-pretty",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Alexey Vasyukov (@notmedia)",
@@ -22,7 +22,7 @@
     "pino-pretty": "13.0.0"
   },
   "devDependencies": {
-    "@nestingjs/eslint-config": "1.0.13",
+    "@nestingjs/eslint-config": "1.0.14",
     "@types/node": "22.13.9",
     "@vitest/coverage-v8": "3.0.7",
     "eslint": "9.21.0",
