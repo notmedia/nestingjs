@@ -1,5 +1,11 @@
 # @nestingjs/logger-pretty
 
+## 1.0.17
+
+### Patch Changes
+
+- chore: update dependencies
+
 ## 1.0.16
 
 ### Patch Changes
