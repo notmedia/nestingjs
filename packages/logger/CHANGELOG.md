@@ -1,5 +1,13 @@
 # @nestingjs/logger
 
+## 1.0.18
+
+### Patch Changes
+
+- updated dependencies
+- Updated dependencies
+  - @nestingjs/tracer@1.0.19
+
 ## 1.0.17
 
 ### Patch Changes
