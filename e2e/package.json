@@ -23,7 +23,7 @@
     "@nestingjs/tracer": "*",
     "@nestjs/cli": "11.0.5",
     "@nestjs/testing": "11.0.12",
-    "eslint": "9.22.0",
+    "eslint": "9.23.0",
     "eslint-plugin-prettier": "5.2.3",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "prettier": "3.5.3",
