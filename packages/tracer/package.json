@@ -1,6 +1,6 @@
 {
   "name": "@nestingjs/tracer",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Alexey Vasyukov (@notmedia)",
@@ -26,17 +26,17 @@
     "express": "4.21.2"
   },
   "devDependencies": {
-    "@nestingjs/eslint-config": "1.0.18",
+    "@nestingjs/eslint-config": "1.0.19",
     "@nestjs/testing": "11.0.12",
     "@types/express": "5.0.1",
-    "@types/node": "22.13.11",
+    "@types/node": "22.13.14",
     "@types/uuid": "10.0.0",
     "@vitest/coverage-v8": "3.0.9",
     "eslint": "9.23.0",
-    "eslint-plugin-prettier": "5.2.3",
+    "eslint-plugin-prettier": "5.2.5",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "prettier": "3.5.3",
-    "typescript-eslint": "8.27.0",
+    "typescript-eslint": "8.28.0",
     "typescript": "5.8.2",
     "vitest": "3.0.9"
   }

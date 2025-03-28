@@ -1,5 +1,11 @@
 # @nestingjs/tracer
 
+## 1.0.21
+
+### Patch Changes
+
+- updated dependencies
+
 ## 1.0.20
 
 ### Patch Changes
