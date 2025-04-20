@@ -1,6 +1,6 @@
 {
   "name": "@nestingjs/slonik",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "commonjs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,6 +10,10 @@
     "dist",
     "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notmedia/nestingjs.git"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit --project tsconfig.build.json",
@@ -24,7 +28,7 @@
     "slonik": "46.4.0"
   },
   "devDependencies": {
-    "@nestingjs/eslint-config": "1.0.25",
+    "@nestingjs/eslint-config": "1.0.26",
     "@nestjs/testing": "11.0.20",
     "@types/node": "22.14.1",
     "@vitest/coverage-v8": "3.1.1",

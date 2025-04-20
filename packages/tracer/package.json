@@ -1,6 +1,6 @@
 {
   "name": "@nestingjs/tracer",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Alexey Vasyukov (@notmedia)",
@@ -9,6 +9,10 @@
     "dist",
     "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notmedia/nestingjs.git"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit --project tsconfig.build.json",
@@ -26,7 +30,7 @@
     "express": "5.1.0"
   },
   "devDependencies": {
-    "@nestingjs/eslint-config": "1.0.25",
+    "@nestingjs/eslint-config": "1.0.26",
     "@nestjs/testing": "11.0.20",
     "@types/express": "5.0.1",
     "@types/node": "22.14.1",

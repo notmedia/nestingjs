@@ -1,5 +1,11 @@
 # @nestingjs/eslint-config
 
+## 1.0.26
+
+### Patch Changes
+
+- update link to git
+
 ## 1.0.25
 
 ### Patch Changes

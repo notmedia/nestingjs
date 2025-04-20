@@ -2,13 +2,17 @@
   "name": "@nestingjs/eslint-config",
   "type": "module",
   "main": "./src/index.js",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "author": "Alexey Vasyukov (@notmedia)",
   "license": "MPL-2.0",
   "files": [
     "src",
     "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notmedia/nestingjs.git"
+  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
