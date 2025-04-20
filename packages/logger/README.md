@@ -26,7 +26,7 @@ customLevels: {
 
 # Usage
 
-Import `LoggerModule` with `forRoot` or `forRootAsync` methods where you want to use logger.
+Import `LoggerModule` using either the `forRoot` or `forRootAsync` method in your application module.
 
 ```ts
 import { LoggerModule } from '@nestingjs/logger';
@@ -86,7 +86,7 @@ export class AppHttpController {
 
 ## Options
 
-`LoggerModuleOptions` extends the `pino.LoggerOptions` except 'customLevels' and 'useOnlyCustomLevels'
+`LoggerModuleOptions` extends the `pino.LoggerOptions` except `customLevels` and `useOnlyCustomLevels`
 
 ```ts
 export type LoggerModuleOptions = {
