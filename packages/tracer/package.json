@@ -1,6 +1,6 @@
 {
   "name": "@nestingjs/tracer",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Alexey Vasyukov (@notmedia)",
@@ -26,7 +26,7 @@
     "express": "5.1.0"
   },
   "devDependencies": {
-    "@nestingjs/eslint-config": "1.0.24",
+    "@nestingjs/eslint-config": "1.0.25",
     "@nestjs/testing": "11.0.20",
     "@types/express": "5.0.1",
     "@types/node": "22.14.1",

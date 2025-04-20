@@ -1,5 +1,11 @@
 # @nestingjs/logger-pretty
 
+## 1.0.26
+
+### Patch Changes
+
+- init @nestingjs/slonik
+
 ## 1.0.25
 
 ### Patch Changes

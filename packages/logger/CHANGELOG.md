@@ -1,5 +1,13 @@
 # @nestingjs/logger
 
+## 1.0.26
+
+### Patch Changes
+
+- init @nestingjs/slonik
+- Updated dependencies
+  - @nestingjs/tracer@1.0.27
+
 ## 1.0.25
 
 ### Patch Changes
