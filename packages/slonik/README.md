@@ -13,7 +13,7 @@ npm i @nestingjs/slonik
 Import `SlonikModule` using either the `forRoot` or `forRootAsync` method in your application module.
 
 ```ts
-import { SlonikInterceptors, SlonikModule } from '@nestingjs/slonik';
+import { SlonikModule } from '@nestingjs/slonik';
 import { Module } from '@nestjs/common';
 
 @Module({
