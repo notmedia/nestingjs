@@ -34,7 +34,7 @@ You can inject the pool in any injectable class using the `InjectPool` decorator
 
 ```ts
 import { InjectPool } from '@nestingjs/slonik';
-import { Controller, Get, Query } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 import { DatabasePool, createSqlTag } from 'slonik';
 import { z } from 'zod';
 
