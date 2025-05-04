@@ -1,6 +1,6 @@
 {
   "name": "@nestingjs/logger-pretty",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Alexey Vasyukov (@notmedia)",
@@ -26,11 +26,11 @@
     "pino-pretty": "13.0.0"
   },
   "devDependencies": {
-    "@nestingjs/eslint-config": "1.0.27",
+    "@nestingjs/eslint-config": "1.0.28",
     "@types/node": "22.15.3",
     "@vitest/coverage-v8": "3.1.2",
     "eslint": "9.26.0",
-    "eslint-plugin-prettier": "5.2.6",
+    "eslint-plugin-prettier": "5.3.1",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "pino": "9.6.0",
     "prettier": "3.5.3",
