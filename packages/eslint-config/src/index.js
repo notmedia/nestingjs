@@ -21,7 +21,7 @@ export default tseslint.config(
     },
   },
   {
-    files: ['**/*.{js,ts}'],
+    files: ['**/*.{js,cjs,mjs,ts,cts,mts}'],
     plugins: {
       '@typescript-eslint': tseslint.plugin,
       'simple-import-sort': simpleImportSort,

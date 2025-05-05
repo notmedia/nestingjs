@@ -1,5 +1,21 @@
 # @nestingjs/logger
 
+## 1.0.32
+
+### Patch Changes
+
+- updated eslint config
+- Updated dependencies
+  - @nestingjs/tracer@1.0.33
+
+## 1.0.31
+
+### Patch Changes
+
+- updated deps
+- Updated dependencies
+  - @nestingjs/tracer@1.0.32
+
 ## 1.0.30
 
 ### Patch Changes
