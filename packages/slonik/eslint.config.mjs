@@ -1,9 +1,8 @@
+import config from '@nestingjs/eslint-config';
 import tseslint from 'typescript-eslint';
 
-import config from '@nestingjs/eslint-config';
-
 export default tseslint.config(...config, {
-  files: ['**/*.{js,mjs,ts,mts,tsx}'],
+  files: ['**/*.{js,cjs,mjs,ts,cts,mts}'],
   languageOptions: {
     parser: tseslint.parser,
     parserOptions: {

@@ -76,6 +76,48 @@ export type SlonikModuleOptions = {
 
 This package includes some useful interceptors out of the box.
 
+### Usage
+
+```ts
+import { SlonikInterceptors, SlonikModule } from '@nestingjs/slonik';
+import { Module } from '@nestjs/common';
+
+@Module({
+  imports: [
+    SlonikModule.forRootAsync({
+      useFactory: () => ({
+        connectionUri: 'postgresql://user:password@host:port/database?param=value',
+        minimumPoolSize: 0,
+        maximumPoolSize: 15,
+        interceptors: [
+          SlonikInterceptors.withLogger(logger),
+          SlonikInterceptors.withTimezone('Asia/Dubai'),
+        ],
+      }),
+    }),
+  ],
+  controllers: [],
+})
+export class AppModule {}
+```
+
+### WithTimezone
+
+Sets time zone for each connection.
+
+```ts
+export type TimezoneInterceptorOptions = {
+  /**
+   * Time zone to set for each DB session (applies `SET TIME ZONE`).
+   * Must be a valid IANA time zone name recognized by PostgreSQL.
+   *
+   * @example UTC, America/New_York, Asia/Dubai
+   * @default 'UTC'
+   */
+  timezone?: string;
+};
+```
+
 ### WithLogger
 Adds a logger interceptor for logging SQL queries using `beforeTransformQuery` hook.
 
