@@ -105,19 +105,14 @@ export class AppModule {}
 
 Sets time zone for each connection.
 
-`SlonikInterceptors.withTimezone(timezone: string): Interceptor`
-
 ```ts
-export type TimezoneInterceptorOptions = {
-  /**
-   * Time zone to set for each DB session (applies `SET TIME ZONE`).
-   * Must be a valid IANA time zone name recognized by PostgreSQL.
-   *
-   * @example UTC, America/New_York, Asia/Dubai
-   * @default 'UTC'
-   */
-  timezone?: string;
-};
+/**
+ * Creates an interceptor that sets the time zone for each DB session.
+ *
+ * @param {string} [timezone] - A valid IANA time zone name recognized by PostgreSQL.
+ * Example values: 'UTC', 'America/New_York', 'Asia/Dubai'.
+ */
+SlonikInterceptors.withTimezone(timezone: string): Interceptor
 ```
 
 ```ts
