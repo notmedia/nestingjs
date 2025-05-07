@@ -105,6 +105,8 @@ export class AppModule {}
 
 Sets time zone for each connection.
 
+`SlonikInterceptors.withTimezone(timezone: string): Interceptor`
+
 ```ts
 export type TimezoneInterceptorOptions = {
   /**
@@ -116,6 +118,18 @@ export type TimezoneInterceptorOptions = {
    */
   timezone?: string;
 };
+```
+
+```ts
+  SlonikModule.forRootAsync({
+    inject: [LoggerService],
+    useFactory: (logger: LoggerService) => ({
+      connectionUri: 'postgresql://user:password@host:port/database?param=value',
+      minimumPoolSize: 0,
+      maximumPoolSize: 15,
+      interceptors: [SlonikInterceptors.withTimezone('Asia/Dubai')],
+    }),
+  }),
 ```
 
 ### WithLogger
