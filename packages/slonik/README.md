@@ -122,8 +122,8 @@ export type TimezoneInterceptorOptions = {
 
 ```ts
 SlonikModule.forRootAsync({
-  inject: [LoggerService],
-  useFactory: (logger: LoggerService) => ({
+  inject: [],
+  useFactory: () => ({
     connectionUri: 'postgresql://user:password@host:port/database?param=value',
     minimumPoolSize: 0,
     maximumPoolSize: 15,
