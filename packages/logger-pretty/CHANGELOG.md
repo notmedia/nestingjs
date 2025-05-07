@@ -1,5 +1,11 @@
 # @nestingjs/logger-pretty
 
+## 1.0.33
+
+### Patch Changes
+
+- feat: added slonik withTimezone interceptor, updated deps
+
 ## 1.0.32
 
 ### Patch Changes

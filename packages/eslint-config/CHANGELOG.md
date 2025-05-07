@@ -1,5 +1,11 @@
 # @nestingjs/eslint-config
 
+## 1.0.31
+
+### Patch Changes
+
+- feat: added slonik withTimezone interceptor, updated deps
+
 ## 1.0.30
 
 ### Patch Changes

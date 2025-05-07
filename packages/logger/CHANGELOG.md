@@ -1,5 +1,13 @@
 # @nestingjs/logger
 
+## 1.0.33
+
+### Patch Changes
+
+- feat: added slonik withTimezone interceptor, updated deps
+- Updated dependencies
+  - @nestingjs/tracer@1.0.34
+
 ## 1.0.32
 
 ### Patch Changes

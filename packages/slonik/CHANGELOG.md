@@ -1,5 +1,11 @@
 # @nestingjs/slonik
 
+## 1.0.8
+
+### Patch Changes
+
+- feat: added slonik withTimezone interceptor, updated deps
+
 ## 1.0.7
 
 ### Patch Changes
