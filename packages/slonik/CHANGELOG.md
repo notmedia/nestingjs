@@ -1,5 +1,11 @@
 # @nestingjs/slonik
 
+## 1.0.9
+
+### Patch Changes
+
+- Added timestamp type parser
+
 ## 1.0.8
 
 ### Patch Changes
