@@ -1,5 +1,11 @@
 # @nestingjs/slonik
 
+## 1.0.13
+
+### Patch Changes
+
+- update dependencies
+
 ## 1.0.12
 
 ### Patch Changes
