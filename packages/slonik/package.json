@@ -1,6 +1,6 @@
 {
   "name": "@nestingjs/slonik",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "type": "commonjs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,19 +24,19 @@
     "test:cov": "vitest run --coverage"
   },
   "peerDependencies": {
-    "@nestjs/common": "11.1.1",
+    "@nestjs/common": "11.1.2",
     "slonik": "47.3.2"
   },
   "devDependencies": {
-    "@nestingjs/eslint-config": "1.0.34",
-    "@nestjs/testing": "11.1.1",
-    "@types/node": "22.15.21",
+    "@nestingjs/eslint-config": "1.0.35",
+    "@nestjs/testing": "11.1.2",
+    "@types/node": "22.15.29",
     "@vitest/coverage-v8": "3.1.4",
-    "eslint": "9.27.0",
-    "eslint-plugin-prettier": "5.4.0",
+    "eslint": "9.28.0",
+    "eslint-plugin-prettier": "5.4.1",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "prettier": "3.5.3",
-    "typescript-eslint": "8.32.1",
+    "typescript-eslint": "8.33.0",
     "typescript": "5.8.3",
     "vitest": "3.1.4"
   }
