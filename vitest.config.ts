@@ -11,5 +11,21 @@ export default defineConfig({
       reporter: ['text', 'json', 'html'],
     },
     passWithNoTests: true,
+    projects: [
+      {
+        extends: true,
+        test: {
+          name: 'unit',
+          include: ['**/*.spec.ts'],
+        },
+      },
+      {
+        extends: true,
+        test: {
+          name: { label: 'e2e', color: 'blue' },
+          include: ['**/*.e2e-spec.ts'],
+        },
+      }
+    ],
   },
 });

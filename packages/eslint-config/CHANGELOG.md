@@ -1,5 +1,11 @@
 # @nestingjs/eslint-config
 
+## 1.0.36
+
+### Patch Changes
+
+- update deps, update vite worksapces
+
 ## 1.0.35
 
 ### Patch Changes

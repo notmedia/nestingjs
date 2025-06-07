@@ -1,5 +1,11 @@
 # @nestingjs/tracer
 
+## 1.0.40
+
+### Patch Changes
+
+- update deps, update vite worksapces
+
 ## 1.0.39
 
 ### Patch Changes

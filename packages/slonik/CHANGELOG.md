@@ -1,5 +1,11 @@
 # @nestingjs/slonik
 
+## 1.0.15
+
+### Patch Changes
+
+- update deps, update vite worksapces
+
 ## 1.0.14
 
 ### Patch Changes
