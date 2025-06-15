@@ -2,7 +2,7 @@
 module.exports = {
   dep: ['prod', 'dev', 'optional', 'peer'],
   removeRange: true,
-  reject: [],
+  reject: ['@types/node'],
   target: (name) => {
     if(['slonik'].includes(name)) return 'minor';
     return 'latest';
