@@ -1,5 +1,11 @@
 # @nestingjs/logger-pretty
 
+## 1.0.40
+
+### Patch Changes
+
+- update deps
+
 ## 1.0.39
 
 ### Patch Changes
