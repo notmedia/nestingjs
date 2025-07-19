@@ -1,5 +1,11 @@
 # @nestingjs/eslint-config
 
+## 1.0.41
+
+### Patch Changes
+
+- update deps
+
 ## 1.0.40
 
 ### Patch Changes
