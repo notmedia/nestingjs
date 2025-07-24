@@ -1,6 +1,6 @@
 {
   "name": "@nestingjs/tracer",
-  "version": "1.0.45",
+  "version": "1.0.46",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Alexey Vasyukov (@notmedia)",
@@ -30,7 +30,7 @@
     "express": "5.1.0"
   },
   "devDependencies": {
-    "@nestingjs/eslint-config": "1.0.41",
+    "@nestingjs/eslint-config": "1.0.42",
     "@nestjs/testing": "11.1.5",
     "@types/express": "5.0.3",
     "@types/node": "22.15.30",
@@ -40,7 +40,7 @@
     "eslint-plugin-prettier": "5.5.3",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "prettier": "3.6.2",
-    "typescript-eslint": "8.37.0",
+    "typescript-eslint": "8.38.0",
     "typescript": "5.8.3",
     "vitest": "3.2.4"
   }
