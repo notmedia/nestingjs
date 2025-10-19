@@ -15,7 +15,7 @@
   "scripts": {
     "prepare": "husky",
     "build": "turbo build",
-    "ncu": "ncu -ws --root",
+    "ncu": "ncu -w --root",
     "lint": "turbo lint",
     "test": "vitest run",
     "test:cov": "vitest run --coverage",
