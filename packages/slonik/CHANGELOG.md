@@ -1,5 +1,11 @@
 # @nestingjs/slonik
 
+## 1.0.28
+
+### Patch Changes
+
+- update deps
+
 ## 1.0.27
 
 ### Patch Changes

@@ -2,7 +2,7 @@
   "name": "@nestingjs/eslint-config",
   "type": "module",
   "main": "./src/index.js",
-  "version": "1.0.48",
+  "version": "1.0.49",
   "author": "Alexey Vasyukov (@notmedia)",
   "license": "MPL-2.0",
   "files": [
@@ -27,6 +27,6 @@
     "eslint-plugin-prettier": "5.5.4",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "prettier": "3.6.2",
-    "typescript-eslint": "8.46.1"
+    "typescript-eslint": "8.46.2"
   }
 }
